@@ -1,1 +1,2 @@
-Netflix CLone Based usinh HTML and pure CSS
+Netflix Clone Based using HTML and  CSS . 
+#Practicing Frontend
