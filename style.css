@@ -163,9 +163,14 @@ nav img {
     margin: auto;
     color: white;
 }
+
+section{
+    height:70vh;
+}
+
 .secImg {
-    
-    margin:7px;
+
+    margin: 7px;
     position: relative;
     top: 0;
     display: flex;
@@ -184,13 +189,41 @@ nav img {
 
 
 .secImg video {
-   
+
     position: absolute;
-   background-color: rgb(31, 30, 30);
+    background-color: rgb(31, 30, 30);
     position: absolute;
     top: min(1vh, 5px);
     left: 3vw;
     width: 76%;
     height: 90%;
 
+}
+
+.first>div :first-child {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+#vidtwo{
+    width: 80%;
+    height: 92%;
+}
+
+.faq >h2{
+color: white;
 }
